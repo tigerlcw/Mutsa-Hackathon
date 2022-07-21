@@ -1,0 +1,83 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://rsms.me/inter/inter.css');
+
+@media screen and (max-width: 1920px) {
+
+    
+    /* 상단 navbar */
+    .navStyle {
+        background-color: #000000;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 1920px;
+        height: 83px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .liStyle {
+        display: inline;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 57px;
+        margin-right: 114px;
+    }
+
+    /* liLogin */
+    .liLogin {
+        display: inline;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 171px;
+        margin-right: 57px;
+    }
+
+    .underLine {
+        text-decoration-line: none;
+        color: #ADADAD;
+    }
+    .underLogin {
+        text-decoration-line: none;
+        color: #FFFFFF;
+    }
+  
+    /* panel */
+    .panel {
+        position: absolute;
+        width: 1920px;
+        height: 480px;
+        left: 0px;
+        top: 83px;
+    }
+    .panel > img {
+        width: 100%;
+        vertical-align: middle;
+    }
+    .panelText {
+        position: absolute;
+        width: 558px;
+        height: 120px;
+        left: 992px;
+        top: 80px;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 60%;
+        text-align: right;
+        color: #F0F0F0;
+    }
+
+}
+
