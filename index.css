@@ -190,5 +190,10 @@
         left: 0px;
         bottom: -1080px;
         background: #1C1C1C;
+        text-align : center;
+    }
+    .copyright > img {
+        width: 40%;
+        margin-top: 60px;
     }
 
