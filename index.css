@@ -123,10 +123,12 @@
       }
       
       .thumbnail {
-        width: 280px;
-        height:280px;
+        width: 200px;
+        height:200px;
+        display: block; 
+        margin: 0px auto;
       }
-      
+   
       .titleKr {
         text-align: center;
         z-index: 2;
@@ -136,7 +138,7 @@
         font-size: 18px;
         text-align: center;
         color: #000000;
-        margin-top: -70px;
+
       }
       .titleEng {
         text-align: center;
