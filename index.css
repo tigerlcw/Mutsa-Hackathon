@@ -247,3 +247,13 @@
         border-radius: 12px 12px 0px 0px;
     }
 
+    /* 술 베이스 이미지 */
+    .baseImg {
+        z-index: -1;
+        position: absolute;
+        width: 168.22px;
+        height: 280.37px;
+        left: 50px;
+        top: -260px;
+    }
+
