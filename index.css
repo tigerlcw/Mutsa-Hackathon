@@ -188,7 +188,7 @@
         width: 1920px;
         height: 165px;
         left: 0px;
-        bottom: -1080px;
+        bottom: -1480px;
         background: #040A04;
         text-align : center;
     }
@@ -199,10 +199,40 @@
 
     /* like button */
     .likeBtn {
- 
         width: 32px;
         height: 28.75px;
         margin-top: -17.5px;
         margin-left: 200px;
+    }
+
+    /* main text */
+    .textTitle {
+        position: absolute;
+        width: 287px;
+        height: 42px;
+        left: 807px;
+        bottom: -1030px;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 150%;
+        text-align: center;
+        color: #040A04;
+    }
+
+    .textSmall {
+        position: absolute;
+        width: 416px;
+        height: 30px;
+        left: 752px;
+        bottom: -1060px;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #ADADAD;
     }
 
