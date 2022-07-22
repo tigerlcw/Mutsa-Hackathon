@@ -188,7 +188,7 @@
         width: 1920px;
         height: 165px;
         left: 0px;
-        bottom: -1480px;
+        bottom: -1680px;
         background: #040A04;
         text-align : center;
     }
@@ -234,5 +234,16 @@
         line-height: 150%;
         text-align: center;
         color: #ADADAD;
+    }
+
+    /* 술 베이스 부분 */
+    .baseList{
+        position: absolute;
+        width: 1180px;
+        height: 144px;
+        left: 370px;
+        bottom: -1520px;
+        background: #040A04;
+        border-radius: 12px 12px 0px 0px;
     }
 
