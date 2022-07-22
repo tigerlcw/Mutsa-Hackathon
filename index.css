@@ -116,33 +116,39 @@
 
     /* 칵테일 Card View */
     .cardBox {
-        position: absolute;
+        position: relative;
         width: 280px;
         height: 300px;
         left: 370px;
         top: 808px;
         border-radius: 5px;
         border: 1px solid rgb(0, 0, 0);
-        margin: auto;
+        margin-bottom: 75px;
       }
       
       .thumbnail {
-        width: 70%;
-        height: 70%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        background-image: url("img/alcohol/br.png");
-        background-size: cover;
+        width: 280px;
+        height:280px;
       }
       
       .titleKr {
         text-align: center;
-        margin: auto;
         z-index: 2;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        margin-top: -70px;
       }
       .titleEng {
         text-align: center;
-        margin: auto;
         z-index: 2;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #6F6F6F;
       }
 
