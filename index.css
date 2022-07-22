@@ -1,8 +1,6 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 @import url('https://rsms.me/inter/inter.css');
 
-@media screen and (max-width: 1920px) {
-
     
     /* 상단 navbar */
     .navStyle {
@@ -55,14 +53,11 @@
     /* panel */
     .panel {
         position: absolute;
-        width: 1920px;
-        height: 480px;
         left: 0px;
         top: 83px;
     }
     .panel > img {
         width: 100%;
-        vertical-align: middle;
     }
     .panelText {
         position: absolute;
@@ -118,5 +113,36 @@
         text-align: center;
     }
 
-}
+
+    /* 칵테일 Card View */
+    .cardBox {
+        position: absolute;
+        width: 280px;
+        height: 300px;
+        left: 370px;
+        top: 808px;
+        border-radius: 5px;
+        border: 1px solid rgb(0, 0, 0);
+        margin: auto;
+      }
+      
+      .thumbnail {
+        width: 70%;
+        height: 70%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-image: url("img/alcohol/br.png");
+        background-size: cover;
+      }
+      
+      .titleKr {
+        text-align: center;
+        margin: auto;
+        z-index: 2;
+      }
+      .titleEng {
+        text-align: center;
+        margin: auto;
+        z-index: 2;
+      }
 
