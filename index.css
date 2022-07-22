@@ -98,5 +98,25 @@
         font-size: 18px;
         line-height: 65px;
     }
+
+    /* 검색 바 */
+    .searchBar{
+        box-sizing: border-box;
+        position: absolute;
+        width: 780px;
+        height: 64px;
+        left: 570px;
+        top: 664px;
+        border: 1px solid #ADADAD;
+        border-radius: 40px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+
 }
 
