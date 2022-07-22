@@ -117,13 +117,9 @@
     /* 칵테일 Card View */
     .cardBox {
         position: relative;
-        width: 280px;
-        height: 300px;
-        left: 370px;
-        top: 808px;
-        border-radius: 5px;
         border: 1px solid rgb(0, 0, 0);
         margin-bottom: 75px;
+        margin-right: 50px;
       }
       
       .thumbnail {
@@ -151,4 +147,5 @@
         font-size: 15px;
         color: #6F6F6F;
       }
+
 
