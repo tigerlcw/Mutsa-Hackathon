@@ -8,7 +8,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        position: absolute;
+        position: fixed;
         width: 1920px;
         height: 83px;
         left: 0px;
@@ -16,6 +16,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        z-index: 3;
     }
     
     .liStyle {
@@ -181,4 +182,13 @@
     }
 
 
+    /* footer */
+    .copyright {
+        position: absolute;
+        width: 1920px;
+        height: 165px;
+        left: 0px;
+        bottom: -1080px;
+        background: #1C1C1C;
+    }
 
