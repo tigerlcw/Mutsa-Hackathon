@@ -116,10 +116,11 @@
 
     /* 칵테일 Card View */
     .cardBox {
-        position: relative;
+        float: left;
+        position:relative !important;
         border: 1px solid rgb(0, 0, 0);
         margin-bottom: 75px;
-        margin-right: 50px;
+        margin-right: 100px;
       }
       
       .thumbnail {
