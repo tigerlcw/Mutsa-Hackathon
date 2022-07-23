@@ -136,7 +136,7 @@
         font-family: 'Pretendard';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
         color: #000000;
       
@@ -150,6 +150,7 @@
         font-weight: 400;
         font-size: 15px;
         color: #6F6F6F;
+        margin-top: -15px;
       }
 
       /* 더 알아보기 버튼 */
