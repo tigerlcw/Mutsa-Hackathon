@@ -9,7 +9,7 @@
         margin: 0;
         padding: 0;
         position: fixed;
-        width: 1920px;
+        width: 100%;
         height: 83px;
         left: 0px;
         top: 0px;
@@ -186,7 +186,7 @@
     /* footer */
     .copyright {
         position: absolute;
-        width: 1920px;
+        width: 100%;
         height: 165px;
         left: 0px;
         bottom: -1680px;
@@ -242,10 +242,11 @@
         position: absolute;
         width: 1180px;
         height: 144px;
-        left: 370px;
         bottom: -1520px;
         background: #040A04;
         border-radius: 12px 12px 0px 0px;
+        left: 50%;
+        transform: translateX( -50% );
     }
 
     /* 술 베이스 이미지 */
