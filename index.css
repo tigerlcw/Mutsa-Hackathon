@@ -158,7 +158,7 @@
         position: absolute;
         width: 328px;
         height: 80px;
-        left: 796px;
+        left: 50%;
         top: 1647px;
         background-color: #040A04;
         color: #ffffff;
@@ -169,6 +169,7 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 80px;
+        transform: translateX(-50%);
     }
 
     /* hr line */
@@ -176,9 +177,9 @@
         position: absolute;
         width: 1440px;
         height: 0px;
-        left: 300px;
+        left: 50%;
         top: 1818px;
-
+        transform: translateX(-50%);
         border: 1px solid #C8C8C8;
     }
 
@@ -239,14 +240,14 @@
 
     /* 술 베이스 부분 */
     .baseList{
+        
         position: absolute;
         width: 1180px;
         height: 144px;
         bottom: -1520px;
         background: #040A04;
         border-radius: 12px 12px 0px 0px;
-        left: 50%;
-        transform: translateX( -50% );
+        left: 370px;
     }
 
     /* 술 베이스 이미지 */
