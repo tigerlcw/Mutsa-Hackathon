@@ -205,7 +205,8 @@
         position: absolute;
         width: 287px;
         height: 42px;
-        left: 807px;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: -1030px;
         font-family: 'Pretendard';
         font-style: normal;
@@ -220,7 +221,8 @@
         position: absolute;
         width: 416px;
         height: 30px;
-        left: 752px;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: -1060px;
         font-family: 'Pretendard';
         font-style: normal;
@@ -233,14 +235,14 @@
 
     /* 술 베이스 부분 */
     .baseList{
-        
+        transform: translateX(-50%);
         position: absolute;
         width: 1180px;
         height: 144px;
         bottom: -1520px;
         background: #040A04;
         border-radius: 12px 12px 0px 0px;
-        left: 370px;
+        left: 50%;
     }
 
     /* 술 베이스 이미지 */
